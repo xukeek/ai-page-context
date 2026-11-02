@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ai-page-context": {
+      "command": "pnpm",
+      "args": ["--filter", "@ai-page-context/mcp-server", "exec", "tsx", "src/cli.ts"],
+      "cwd": "/Users/xukeek/Develop/ext/ai-page-context",
+      "env": {
+        "AI_PAGE_CONTEXT_CWD": "/Users/xukeek/Develop/ext/ai-page-context/examples/react-vite-demo",
+        "AI_PAGE_CONTEXT_PORT": "17321"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+.output
+.wxt
+*.local
+.DS_Store
+.ai-page-context
+*.tsbuildinfo

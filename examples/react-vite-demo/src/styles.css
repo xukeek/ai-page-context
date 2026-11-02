@@ -1,0 +1,106 @@
+:root {
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: #102a43;
+  background:
+    radial-gradient(circle at top left, #d9e2ec 0, transparent 40%),
+    linear-gradient(160deg, #f0f4f8, #d9e2ec);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+}
+
+.page {
+  width: min(920px, 100%);
+  display: grid;
+  gap: 24px;
+}
+
+.hero {
+  display: grid;
+  gap: 8px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: -0.03em;
+}
+
+.hero p {
+  margin: 0;
+  color: #486581;
+}
+
+.profile-card {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 20px;
+  padding: 24px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(16, 42, 67, 0.08);
+  box-shadow: 0 20px 40px rgba(16, 42, 67, 0.08);
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 24px;
+  object-fit: cover;
+  background: #829ab1;
+}
+
+.user-info h2 {
+  margin: 0 0 6px;
+  font-size: 1.35rem;
+}
+
+.user-info p {
+  margin: 0 0 14px;
+  color: #627d98;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.actions .primary {
+  background: #243b53;
+  color: white;
+}
+
+.actions .ghost {
+  background: #d9e2ec;
+  color: #243b53;
+}
+
+.note {
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #243b53;
+  color: #f0f4f8;
+  font-size: 0.92rem;
+}
